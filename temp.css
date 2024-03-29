@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* width: 100vh;
+    height: 100vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 1rem;
+}
+
+.temperature-converter{
+    background: black;
+    width: 100%;
+    min-width: 320px;
+    padding: 20px 25px 45px;
+    border-radius: 2rem;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 1rem goldenrod;
+    backdrop-filter: blur(21px);
+}
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 700;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 20px;
+}
+.title {
+    justify-content: center;
+    text-align: center;
+    color: goldenrod;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.result {
+    text-align: center;
+    margin: 20px 0;
+}
+.result-heading {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.celsius-value {
+    border-bottom: 2px solid #ccc;
+    padding: 10px;
+    transition: all .45s ease;
+}
+.degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+.degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+label {
+    color: white;
+    font-size: .8rem;
+    margin-bottom: 5px;
+}
+
+input{
+    background: transparent;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #ccc;
+    padding: 8px;
+    margin-bottom: 15px;
+    color: white;
+}
+
+select{
+    background: white;
+    border-radius: 3rem;
+    padding: 8px;
+    margin-bottom: 15px;
+    outline: none;
+    border: goldenrod;
+}
+
+#convert-btn {
+    background: goldenrod;
+    color: black;
+    border-radius: 2rem;
+    padding: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all .3s ease;
+    
+}
